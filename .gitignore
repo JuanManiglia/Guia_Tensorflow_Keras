@@ -112,3 +112,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Folders
+Clase_02/
+Clase_03/
+Clase_04/

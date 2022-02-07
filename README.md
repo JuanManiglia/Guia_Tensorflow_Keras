@@ -1,2 +1,33 @@
-# Guia_Tensorflow_Keras
- 
+[Juan Maniglia](https://juanmaniglia.github.io/)
+
+**El contenido de este curso cambia a medida que la tecnología evoluciona.**, para estar al tanto de los cambios [GitHub](https://github.com/JuanManilgia).
+
+# Descripción de la guía
+
+Deep Learning es un grupo de nuevas y emocionantes tecnologías para redes neuronales. A través de una combinación de técnicas de entrenamiento avanzadas y componentes arquitectónicos de redes neuronales, ahora es posible crear redes neuronales que pueden manejar datos tabulares, imágenes, texto y audio como entrada y salida. Deep Learning permite que una red neuronal aprenda jerarquías de información de una manera que es como la función del cerebro humano. Este curso introducirá al estudiante a las estructuras de redes neuronales clásicas, redes neuronales de convolución (CNN), memoria a corto plazo (LSTM), redes neuronales recurrentes cerradas (GRU), redes antagónicas generales (GAN) y aprendizaje por refuerzo. Se cubrirá la aplicación de estas arquitecturas a la visión por computadora, series de tiempo, seguridad, procesamiento de lenguaje natural (NLP) y generación de datos. Los aspectos de computación de alto rendimiento (HPC) demostrarán cómo se puede aprovechar Deep Learning tanto en unidades de procesamiento gráfico (GPU) como en redes. La atención se centra principalmente en la aplicación de Deep Learning a los problemas, con alguna introducción a los fundamentos matemáticos. Los estudiantes utilizarán el lenguaje de programación Python para implementar el aprendizaje profundo mediante Google TensorFlow y Keras.
+
+# Objetivos
+
+1. Explicar cómo las redes neuronales (profundas y de otro tipo) se comparan con otros modelos de machine learning.
+2. Determinar cuándo una red neuronal profunda sería una buena opción para un problema en particular.
+
+
+Modulos|Contenidos
+---|---
+[Modulo 1](clase_01_2_python.ipynb)<br> | **Modulo 1: Python**<ul><li>Parte 1.2: Introducción a Python<li>Parte 1.3: Python Listas, Diccionarios, Sets & JSON<li>Parte 1.4: Manejos de Archivos<li>Parte 1.5: Funciones, Lambdas, y Map/Reduce Python Preliminares<li></ul>
+[Modulo 2](clase_02_1_python_pandas.ipynb)<br> | **Modulo 2: Python Machine Learning**<ul><li>	Parte 2.1: Introducción a Pandas para Deep Learning<li>Parte 2.2: Encoding Categorical Values en Pandas<li>Parte 2.3: Grouping, Sorting y Shuffling<li>Parte 2.4: Usar Apply y Map en Pandas<li>Parte 2.5: Feature Engineering en Padas<li></ul>
+[Modulo 3](clase_03_1_neural_net.ipynb)<br> | **Modulo 3: TensorFlow y Keras para Neural Networks**<ul><li>Parte 3.1: Introducción a Deep Learning y Neural Network<li>Parte 3.2: Introducción a Tensorflow & Keras<li>Parte 3.3: Guardar y Cargar una Neural Network de Keras<li>Parte 3.4: Early Stopping en Keras para Prevenir Overfitting<li>Parte 3.5: Extraer Keras Weights y Calculo Manual en Neural Network<li></ul>
+[Modulo 4](clase_04_1_feature_encode.ipynb)<br> | **Modulo 4: Entrenamiento para Datos Tabulares**<ul><li>Parte 4.1: Encoding un Feature Vector para Keras Deep Learning<li>Parte 4.2: Keras Multiclases Clasificación para Deep Neural Networks con ROC y AUC<li>Parte 4.3: Keras Regresión para Deep Neural Networks con RMSE<li>Parte 4.4: Backpropagation, Nesterov Momentum, y ADAM<li>Parte 4.5: Neural Network RMSE y Calculo Logaritmico de Loss Error para Scratch<li></ul>
+[Modulo 5](clase_05_1_reg_ridge_lasso.ipynb)<br> | **Modulo 5: Regularización y Dropout**<ul><li>Parte 5.1: Introducción a la Regularización: Ridge y Lasso<li>Parte 5.2: Uso de K-Fold Cross Validation con Keras<li>Parte 5.3: Uso de L1 y L2 Regularización con Keras para Evitar Overfitting<li>Parte 5.4: Drop Out para Evitar Overfitting con Keras<li>Parte 5.5: Bootstrapping y Benchmarking Hyperparametros<li></ul>
+[Modulo 6](clase_06_1_python_images.ipynb)<br> | **Modulo 6: CNN para imagenes**<ul>	Parte 6.1: Procesado de Imagenes en Python<li>Parte 6.2: Uso de Convolucional Networks con Keras<li>Parte 6.3: Uso de Neural Networks Pre-entrenadas<li>Parte 6.4: Keras Generador y Aumento de Imágeness<li>Parte 6.5: Reconocimiento de Múltiples Imágenes con YOLOv5<li></ul>
+[Modulo 7](clase_07_1_gan_intro.ipynb)<br> | **Modulo 7: Generative Adversarial Networks (GANs)**<ul><li>Parte 7.1: Introducción a GANS para Imágenes y Generador de Data<li>Parte 7.2: Entrenar StyleGAN3 con tus Ptopias Imágeness<li>Parte 7.3: Explorar el StyleGAN Latent Vector<li>Parte 7.4: GANS para mejorar fotografías antiguas con Deoldify<li>Parte 7.5: GANs para Datos Tabulares Sinteticos<li></ul>
+[Modulo 8](clase_08_1_kaggle_intro.ipynb)<br> | **Modulo 8: Kaggle**<ul><li>Parte 8.1: Introducción a Kaggle<li>Parte 8.2: Construir Ensembles con Scikit-Learn y Keras<li>Parte 8.3: Como diseñar tu Keras Neural Network: Hyperparametros<li>Parte 8.4: Bayesian Hyperparametro Optimización par Keras<li>Parte 8.5: Proyecto Kaggle<li></ul>
+[Modulo 9](clase_09_1_keras_transfer.ipynb)<br> | **Modulo 9: Transfer Learning**<ul><li>Parte 9.1: Introducción a Keras Transfer Learning<li>Parte 9.2: Popular Neural Networks Pre-entrenadas para Keras. <li>Parte 9.3: Transfer Learning para Computer Vision y Keras<li>Parte 9.4: Transfer Learning para Languages y Keras<li>Parte 9.5: Transfer Learning para Keras Feature Engineering<li></ul>
+[Modulo 10](clase_10_1_timeseries.ipynb)<br> | **Modulo 10: Time Series en Keras**<ul><li>Parte 10.1: Time Series Data Encoding para Deep Learning, TensorFlow y Keras<li>Parte 10.2: Programar LSTM con Keras y TensorFlow<li>Parte 10.3: Generación de Texto con Keras y TensorFlow<li>Parte 10.4: Subtítulos de imagen con Keras y TensorFlow<li>Parte 10.5: Temporal CNN en Keras y TensorFlow<li></ul>
+[Modulo 11](clase_11_01_spacy.ipynb)<br> | **Modulo 11: Natural Language Processing NLP**<ul><li>Parte 11.1: Spacy en Python<li>Parte 11.2: Word2Vec y Clasificación de Texto<li>Parte 11.3: Natural Language Processing con Spacy y Keras<li>Parte 11.4: Cuales son los Embedding Layers en Keras<li></ul>
+[Modulo 12](clase_12_01_ai_gym.ipynb)<br> | **Modulo 12: Reinforcement Learning**<ul><li>Parte 12.1: Introducción a OpenAI Gym<li>Parte 12.2: Introducción a Q-Learning para Keras<li>Parte 12.3: Keras Q-Learning en OpenAI Gym<li>Parte 12.4: Atari Games con Keras Neural Networks<li>Parte 12.5: Aplicaciones de Reinforcement Learning</ul>
+[Modulo 13](clase_13_01_flask.ipynb)<br> | **Modulo 13: Deployment and Monitoring**<ul><li>Parte 13.1: Flask y Deep Learning Web Services <li>Parte 13.2: Entrenamiento Interrumpido y Continuo<li>Parte 13.3: Uso de una Keras Deep Neural Network con una Aplicación Web<li>Parte 13.4: Cuando Reentrenar tu Neural Network<li>Parte 13.5: Uso de Keras en un dispositivo Móvil<li></ul>
+[Modulo 14](clase_14_01_automl.ipynb)<br> | **Modulo 14: Otras Técnicas con Neural Network**<ul><li>Parte 14.1: Que es AutoML<li>Parte 14.2: Uso de Denoising AutoEncoders en Keras<li>Parte 14.3: Entrenamiento de un Sistema de Detección de Intrusos con KDD99<li>Parte 14.4: Detección de Anomalias en Keras<li>Parte 14.5: Nuevas Tecnologias en Deep Learning<li></ul>
+
+
+Inspirado en [Jeff Heaton](https://github.com/jeffheaton/t81_558_deep_learning)
